@@ -1,7 +1,10 @@
 version: "2"
-web:
-    image: gorghoa/php7
-   ports:
-        - 80:80
-    volumes:
-        - .:/app
+
+services:
+    spa:
+        build: .
+        working_dir: /app
+        ports:
+            - "80:8000"
+        volumes:
+            - ./:/app
