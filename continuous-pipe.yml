@@ -17,4 +17,4 @@ tasks:
           deployment_strategy:
             readiness_probe:
               type: tcp
-              port: 80
+              port: 8000
