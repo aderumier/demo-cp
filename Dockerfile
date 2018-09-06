@@ -1,6 +1,6 @@
-FROM gorghoa/php7
+FROM php:7-alpine
 ADD . /app
 
 EXPOSE 8000
 
-CMD ["/app/run.sh"]
+CMD ["php", "-S","0.0.0.0:8000"]
