@@ -5,7 +5,7 @@ tasks:
     build:
       services:
         app:
-          image: eu.gcr.io/quotatis-152617/demo-cp
+          image: aderumier/demo-cp
           naming_strategy: sha1
           environment: []
   deployment:
