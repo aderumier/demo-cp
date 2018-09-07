@@ -5,7 +5,7 @@ tasks:
     build:
       services:
         app:
-          image: aderumier/demo-cp
+          image: odisohosting/demo-cp
           naming_strategy: sha1
           environment: []
   deployment:
